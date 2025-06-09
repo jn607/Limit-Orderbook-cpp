@@ -20,9 +20,6 @@ A profit is earned off of the **spread** between the difference in prices betwee
 **Data Structures:**
 - std::map<double, std::vector<Order>>
 
-**Build System:**
-- CMake (easy cross-platform)
-
 **Tests:**
 ---
 
