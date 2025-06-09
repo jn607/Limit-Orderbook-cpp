@@ -2,7 +2,11 @@
 #include <cstdint>
 #include <chrono>
 
-enum class Side { Buy, Sell };
+enum class Side 
+{ 
+    Buy,
+    Sell
+};
 
 struct Order {
     uint64_t id;
