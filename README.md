@@ -24,3 +24,7 @@ A profit is earned off of the **spread** between the difference in prices betwee
 - CMake (easy cross-platform)
 
 **Tests:**
+---
+
+To do:
+- Test functionality with sample orders in main.cpp
