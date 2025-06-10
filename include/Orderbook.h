@@ -12,9 +12,12 @@ public: // public interface
 
 private: //private data members
     // bids: highest price first
+    // This is a template class to create an object, that takes a key and a value. 
+    // The key is the price, and the value is a vector of orders
+    // The greater<double> is a comparator that sorts the prices in descending order
     std::map<double, 
     std::vector<Order>, 
-    std::greater<>> bids;
+    std::greater<>> bids; 
     // asks: lowest price first
     std::map<double, 
     std::vector<Order>> asks;
