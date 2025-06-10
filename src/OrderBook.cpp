@@ -2,7 +2,7 @@
 #include <iostream>
 
 // Define member function so linker knows how to implement it.
-void OrderBook::add_order(const Order& o) {
+void OrderBook::add_order(const Order& o) { //Define add_order function as part of the OrderBook class
     // for now, just insert every order into the correct side
     if (o.side == Side::Buy) {
         bids[o.price].push_back(o);
