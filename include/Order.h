@@ -10,6 +10,7 @@ enum class Side // Define a scoped enum Side
 
 struct Order { // Declares a POD-style type Order whose instances live in contiguous 
                 // memory (fields laid out in order)
+                // (note: struct members are public by default. Opposite for classes)
     uint64_t id; // 8 byte unsigned integer
     Side side; // enum Buy or Sell
     double price; // 8-byte floating point for limit price
